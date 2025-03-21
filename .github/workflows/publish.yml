@@ -16,6 +16,7 @@ jobs:
         */build/libs/*
         !buildSrc/*
         !xplat/*
+        !common/*
         !*-sources.jar
         !*-javadoc.jar
       gradle-publish: 'publish'
