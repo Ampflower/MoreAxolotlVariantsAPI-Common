@@ -19,6 +19,8 @@ jobs:
         !common/*
         !*-sources.jar
         !*-javadoc.jar
+        !*-dev.jar
+        !*-dev-shadow.jar
       gradle-publish: 'publish'
       java-version: 21
     secrets: inherit
